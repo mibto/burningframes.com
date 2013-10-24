@@ -1,13 +1,15 @@
 <div class="rows">
     <div class="col-md-6 hidden-xs">
-        <img class="img-responsive pull-left" src="/assets/layout/seat.png">
+        <%= image_tag "/assets/layout/seat.png", class: "img-responsive pull-left" %>
     </div>
     <div class="col-md-6 col-xs-12">
-        <img class="img-responsive pull-right" src="/assets/layout/contactText.png">
+        <%= image_tag "/assets/layout/contactText.png", class: "img-responsive pull-right" %>
     </div>
 </div>
 <div class="row">
-    <div class="col-xs-12">
-        <a href="/home"><img style="margin-top: 50px;" class="pull-right" src="/assets/layout/backButton.png"/></a>
-    </div>
+  <div class="col-xs-12">
+    <a href="<%= root_path %>">
+      <%= image_tag "/assets/layout/backButton.png", class: "pull-right", style: "margin-top: 50px;" %>
+    </a>
+  </div>
 </div>
