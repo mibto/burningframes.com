@@ -8,11 +8,11 @@ class ApplicationController < ActionController::Base
   def _set_meta_tag_defaults
     set_meta_tags site: t("routes.index.index"),
       authors: ["Michael Brodmann", "B&L Informatik"],
-      keywords: ["test", "foo", "baar"],
-      description: "test beschreibung",
+      #keywords: ["test", "foo", "baar"],
+      #description: "test beschreibung",
       separator: ">",
-      noindex: true,
-      nofollow: true,
+      noindex: !Rails.env.production?,
+      nofollow: !Rails.env.production?,
       reverse: true
   end
 end
