@@ -7,7 +7,6 @@ BurningframesCom::Application.routes.draw do
 
   match "about" => "index#about", as: :about, via: :get
   match "works" => "index#works", as: :work, via: :get
-  match "home" => "index#home", as: :"", via: :get
   match "contact" => "index#contact", as: :contact, via: :get
 
   # Example of regular route:

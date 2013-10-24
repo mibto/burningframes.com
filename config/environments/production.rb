@@ -27,7 +27,7 @@ BurningframesCom::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  config.assets.compile = true
 
   # Generate digests for assets URLs.
   config.assets.digest = true
@@ -44,6 +44,18 @@ BurningframesCom::Application.configure do
 
   # Set to :debug to see everything in the log.
   config.log_level = :info
+  
+  # We don't want the default of everything that isn't js or css, because it pulls too many things in
+  config.assets.precompile.shift
+
+  # Explicitly register the extensions we are interested in compiling
+  config.assets.precompile.push(Proc.new do |path|
+    File.extname(path).in? [
+      '.png',  '.gif', '.jpg', '.jpeg', '.svg', # Images
+      '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
+    ]
+  end
+  )
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]

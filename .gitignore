@@ -16,3 +16,5 @@
 /tmp
 
 /app/assets/vendor
+/public/assets
+/vendor

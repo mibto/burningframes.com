@@ -24,6 +24,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'turbolinks'
 
 gem 'meta-tags', :require => 'meta_tags'
+gem 'newrelic_rpm'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
