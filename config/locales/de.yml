@@ -1,0 +1,7 @@
+de:
+  routes:
+    index:
+      about: About
+      contact: Contact
+      index: burningframes.com
+      works: Works

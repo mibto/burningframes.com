@@ -1,0 +1,27 @@
+/*
+ *= require_self
+ *= require_tree    ./application
+ *= require         bootstrap/less/bootstrap
+ */
+
+@media screen and (min-width: 800px) {
+    #content {
+        background-image: url("/assets/layout/top.png"), url("/assets/layout/right.png"), url("/assets/layout/bottom.png"), url("/assets/layout/left.png");
+        background-position: top, right, bottom, left;
+        background-size: contain, contain, contain, contain;
+        background-repeat: no-repeat;
+        background-color: #666;
+        padding: 90px 60px 30px 60px
+    }
+    #aboutBackButton{
+        margin-top: -160px;
+        padding-right: 50px;
+    }
+}
+/*
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+*/
