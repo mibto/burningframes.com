@@ -1,4 +1,4 @@
-@dir = "/home/krolop-gerst.com/var/http/creative-tool/"
+@dir = "/home/burningframes.com/var/http/www-burningframes-com/"
 
 worker_processes 10
 working_directory @dir
