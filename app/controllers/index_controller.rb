@@ -8,7 +8,6 @@ class IndexController < ApplicationController
 
   def works
     @page_title = t("routes.index.works")
-    @meta_tags["keywords"] << "testing zum adden"
 
   end
 
