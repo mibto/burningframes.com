@@ -1,6 +1,6 @@
 @dir = "/home/burningframes.com/var/http/www-burningframes-com/"
 
-worker_processes 10
+worker_processes 1
 working_directory @dir
 
 timeout 30
