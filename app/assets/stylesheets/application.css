@@ -1,5 +1,5 @@
 /*
  *= require_self
- *= require_tree    ./application
  *= require         bootstrap/less/bootstrap
+ *= require_tree    ./application
  */
