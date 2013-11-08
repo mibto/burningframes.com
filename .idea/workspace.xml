@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6875343d-75e8-4e5b-8f17-8d6fdaf097af" name="Default" comment="*slider&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index/works.html.erb" afterPath="$PROJECT_DIR$/app/views/index/works.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="burningframes.com.iws" />
@@ -11,13 +12,13 @@
     <file path="/application.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1383432816496" ignored="false" />
     <file path="/_navigation.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1380373597726" ignored="false" />
     <file path="/Gemfile" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1381491100271" ignored="false" />
-    <file path="/Dummy.txt" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1383472538481" ignored="false" />
+    <file path="/Dummy.txt" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1383900047339" ignored="false" />
     <file path="/bootstrap_and_overrides.css.scss" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1381220618790" ignored="false" />
     <file path="/home.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1382710434543" ignored="false" />
     <file path="/index.css.scss" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1381533132006" ignored="false" />
     <file path="/work.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1381479633384" ignored="false" />
     <file path="/index_controller.rb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1381479660138" ignored="false" />
-    <file path="/works.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1383432621435" ignored="false" />
+    <file path="/works.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1383901684952" ignored="false" />
     <file path="/contact.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1382615080374" ignored="false" />
     <file path="/about.html.erb" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1382616057847" ignored="false" />
     <file path="/application.css" changelist="6875343d-75e8-4e5b-8f17-8d6fdaf097af" time="1382086825481" ignored="false" />
@@ -85,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.90425533">
+            <state line="34" column="22" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-21.25">
               <folding />
             </state>
           </provider>
@@ -139,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="works.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="works.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index/works.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="34" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0">
+            <state line="12" column="161" selection-start="855" selection-end="855" vertical-scroll-proportion="0.31914893">
               <folding />
             </state>
           </provider>
@@ -184,8 +185,8 @@
         <option value="$PROJECT_DIR$/app/views/index/contact.html.erb" />
         <option value="$PROJECT_DIR$/log/development.log" />
         <option value="$PROJECT_DIR$/public/sliderengine/initslider-1.js" />
-        <option value="$PROJECT_DIR$/app/views/index/works.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/index/works.html.erb" />
       </list>
     </option>
   </component>
@@ -228,7 +229,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -511,6 +511,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -1072,7 +1073,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20941828" sideWeight="0.6638024" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33619764" sideWeight="0.49806094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33619764" sideWeight="0.49806094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1234,16 +1235,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index/works.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="34" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0">
+        <state line="34" column="22" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-21.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/index/works.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.90425533">
+        <state line="12" column="161" selection-start="855" selection-end="855" vertical-scroll-proportion="0.31914893">
           <folding />
         </state>
       </provider>
