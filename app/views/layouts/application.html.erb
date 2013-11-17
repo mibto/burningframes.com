@@ -9,25 +9,8 @@
 </head>
 <body style="background-color: black">
   <div class="container" id="content" style="background-color: white;">
-      <div class="row">
-          <div class="col-md-4 col-xs-12">
-            <!--<a href="/works">-->
-              <%= image_tag "layout/works.png", class: "img-responsive", style: "margin: 0px auto" %>
-            <!--</a>-->
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <a href="<%= about_path %>">
-              <%= image_tag "layout/about.png", class: "img-responsive", style: "margin: 0px auto" %>
-            </a>
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <a href="<%= contact_path %>">
-              <%= image_tag "layout/contact.png", class: "img-responsive", style: "margin: 0px auto" %>
-            </a>
-          </div>
-      </div>
+      <%= image_tag "layout/mask.png", class: "img-responsive", id: "logo" %>
       <%= yield %>
-      <div style="color: #ffffff; margin-bottom: -60px; margin-top: 60px;">&copy; burningframes.com</div>
   </div>
   <%= javascript_include_tag :application %>
   <script src="assets/sliderengine/jquery.js"></script>

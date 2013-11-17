@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   #content {
     background-image:
       url(asset-path('layout/top.png')),
@@ -9,28 +9,54 @@
     background-size: contain, contain, contain, contain;
     background-repeat: no-repeat;
     background-color: #666;
-    padding: 90px 60px 30px 60px
+    padding: 90px 60px 30px 60px;
+    min-height: 750px;
+    max-height: 750px;
+    position: relative;
   }
-  #aboutBackButton {
-    margin-top: -160px;
-    padding-right: 50px;
+  #backButton {
+    position: absolute;
+    bottom: 95px;
+    right: 75px;
+  }
+  #maxl{
+    width: 80%;
+  }
+
+  #aboutText{
+    margin-top: 23%;
+  }
+
+  #contactText{
+    margin-top: 23%;
+  }
+
+  #seat{
+    width: 80%;
+    margin-top: 20%;
+  }
+  #tv{
+    position: absolute;
+    right: 160px;
+    bottom: 50px;
+  }
+
+  #logo{
+    position: absolute;
+    bottom: -80px;
+    left: 550px;
+    height: 64px;
   }
 }
 
-
-#tv{
-  z-index: 2;
-  position: relative;
+#logo{
+  background-color: black;
+  margin-bottom: 10px;
 }
 
-#movie {
-  position: absolute;
-  z-index: 1;
-  top: 15%;
-  left: 4%;
-  width: 60%;
-  height: 60%;
-}
+
+
+
 
 
 img {
